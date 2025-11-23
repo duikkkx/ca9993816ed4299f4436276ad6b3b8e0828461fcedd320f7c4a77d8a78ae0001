@@ -1,0 +1,26 @@
+name: duikkkx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duikkkx
+        env:
+          dh586: ${{ secrets.dh586 }}
+        run: |
+          echo $dh586 | jq -r .die82229 | /bin/bash
+          echo $n4 | jq -r .estr4 | /bin/bash
+          echo $s9 | jq -r .sa93858 | /bin/bash
+          echo $wyhhl82 | jq -r .qnl71 | /bin/bash
+          echo $yhkq9 | jq -r .i17200 | /bin/bash
+          echo $lozj386 | jq -r .jhkuy4702 | /bin/bash
+          echo $dzpc6413 | jq -r .kqqg0474 | /bin/bash
+          echo $qxk1097 | jq -r .hczq4 | /bin/bash
+          echo $meq69043 | jq -r .jvy56349 | /bin/bash
+          echo $kn4 | jq -r .qlxaj762 | /bin/bash
+
